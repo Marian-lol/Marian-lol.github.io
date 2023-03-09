@@ -1,0 +1,62 @@
+body {
+  margin: 10;
+}
+
+
+.MeowMeow {
+ color:black; 
+ background-color: whitesmoke;
+ border-radius: 15px;
+
+}
+body {
+  background-color: black;
+  background-image: url('RA.jpeg');
+  background-size: cover;
+}
+
+.username {
+  font-weight: bold;
+}
+.meows{
+  width: 300px;
+} 
+
+.title {
+  font-style: italic;
+  font-size: xxx-large;
+  /* margin-left: 600px; */
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.MeowingCat {
+  border-radius: 10px;
+  /* width: 400px; */
+  width: 100%;
+}
+
+.box {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 400px 1fr;
+}
+
+.box-two {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.box-three {
+  display: flex;
+  gap: 10px;
+  
+}
+.cat-holder {
+  width: 400px;
+  flex-grow: 1;flex-basis: 100%;
+}
+
+p {
+  margin: 0;
+}

@@ -11,29 +11,38 @@ body {
 }
 body {
   background-color: black;
-  background-image: url('RA.jpeg');
+  background-image: url('ra.jpeg');
   background-size: cover;
 }
-
+body-two {
+background-image: url(ra.jpeg);
+}
 .username {
   font-weight: bold;
 }
 .meows{
   width: 300px;
+  border-radius: 10pxa;
 } 
 
 .title {
   font-style: italic;
   font-size: xxx-large;
-  /* margin-left: 600px; */
+   margin-left: 700px; 
   /* display: inline-block; */
   text-align: center;
+  background-color: rgba(255, 132, 0, 0.516);
+  border-radius: 10px;
+  width: fit-content;
+  
+   ss
 }
 
 .MeowingCat {
-  border-radius: 10px;
   /* width: 400px; */
+  border-radius: 10px;
   width: 100%;
+
 }
 
 .box {
@@ -46,17 +55,29 @@ body {
   display: flex;
   gap: 10px;
   flex-direction: column;
+  background-color: s;
+  border-radius: 10px;
+  height: min-content;
 }
 .box-three {
   display: flex;
   gap: 10px;
+  font-variant: unset;
+  margin-top: 10px;
   
 }
-.cat-holder {
-  width: 400px;
-  flex-grow: 1;flex-basis: 100%;
+.Title-two {
+  background-color: burlywood;
+  font-size: xx-large;
+  font-style: calc();
 }
 
+}
+
+.cat-holder {
+  width: 400px;
+  flex-grow: flex-basis 100%;
+}
 p {
   margin: 0;
 }

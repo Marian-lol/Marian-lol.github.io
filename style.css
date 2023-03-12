@@ -1,48 +1,69 @@
 body {
   margin: 10;
 }
+.Titletwo {
+  width: fit-content;
+  font-size: xx-large;
+  text-align: center;
+  background-color: burlywood;
+  border-radius: 10px;
+  
+}
+.Paragraph-two {
+  display: flex;
+  
+}
+.Paragraph-three {
+  
+}
+.Cat-two {
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.Cat-three {
+  height: 600px;
+  display: flex;
+  margin-top: 10px;
+  border-radius: 10px;
 
-
+}
 .MeowMeow {
- color:black; 
- background-color: whitesmoke;
- border-radius: 15px;
-
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 15px;
 }
 body {
   background-color: black;
-  background-image: url('ra.jpeg');
+  background-image: url('background.jpeg');
   background-size: cover;
 }
 body-two {
-background-image: url(ra.jpeg);
+  background-image: url(ra.jpeg);
 }
 .username {
   font-weight: bold;
 }
-.meows{
+.meows {
   width: 300px;
   border-radius: 10pxa;
-} 
-
+}
+.puppy {
+  text-align: center;
+}
 .title {
   font-style: italic;
   font-size: xxx-large;
-   margin-left: 700px; 
+  
   /* display: inline-block; */
   text-align: center;
   background-color: rgba(255, 132, 0, 0.516);
   border-radius: 10px;
   width: fit-content;
-  
-   ss
 }
 
 .MeowingCat {
-  /* width: 400px; */
-  border-radius: 10px;
-  width: 100%;
-
+  width: 400px;
 }
 
 .box {
@@ -64,14 +85,6 @@ background-image: url(ra.jpeg);
   gap: 10px;
   font-variant: unset;
   margin-top: 10px;
-  
-}
-.Title-two {
-  background-color: burlywood;
-  font-size: xx-large;
-  font-style: calc();
-}
-
 }
 
 .cat-holder {
@@ -80,4 +93,21 @@ background-image: url(ra.jpeg);
 }
 p {
   margin: 0;
+}
+
+.simple-box {
+  display: flex;
+  gap: 12px;
+}
+
+.simple-box-vertical {
+  display: flex;
+  gap:82px;
+  flex-direction: column;
+}
+
+.lub {
+  height: 500px;
+  border-radius: 10px;
+  gap: 10px;
 }
